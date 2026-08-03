@@ -16,4 +16,6 @@ driver.manage().window().maximize();
         ConfigReader.getProperty("url");
         System.out.println(driver.getTitle());
 driver.quit();
+
+
 }}
