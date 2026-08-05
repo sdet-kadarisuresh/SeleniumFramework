@@ -62,7 +62,7 @@ public class DriverFactory {
         return driver;
 
     }
-//added
+
     public static void quitDriver() {
 
         if (driver != null) {
