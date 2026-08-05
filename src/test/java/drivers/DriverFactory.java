@@ -22,7 +22,6 @@ public class DriverFactory {
         String browser = ConfigReader.getProperty("browser");
 
         switch (browser.toLowerCase()) {
-
             case "chrome":
 
                 WebDriverManager.chromedriver().setup();
